@@ -1,0 +1,25 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	a* Variables
+	b* Strings
+	c* Funciones (argumentos, `return`)
+	d* Declaraciones `if`
+	e* Valores booleanos (`true`, `false`)
+
+
+1.a. Variables: Una variable es un elemento que el programador define y que puede ser utilizado luego para el fin que sea necesario.
+Esta puede ser numérica o no, e incluso puede volver a ser redefinida utilizando el signo =. Si queremos que sea númerica y funcione como tal, NO la envolvemos en comillas. En caso de envolverla en comillas funcionará como si fuera un texto, o sea no podrá realizar operaciones matemáticas.
+Si queremos que una variable no pueda ser pisada o redefinida, utilizamos el commando constante.
+Let aún no tengo muy claro a que refiere.
+
+1.b. Strings: Los strings son bloques de texto y se definen entre comillas. Pueden ser letras o números, frases, palabras, lo que sea, siempre y cuando no sean palabras reservas del código.
+
+1.c. Funciones: Las funciones son herramientas que sirven para agrupar código que quiero volver a utilziar muchas veces. Son objetos que yo "llamo" en determinado momento para realizar la función que el programador le asigno al crearla. 
+Los argumentos en una función vienen a ser como las incognitas de una ecuación. Son los huecos/campos en el mecanismo que que esperan ser llenados para generan la reacción de la función que se creo.
+Return se usa en funciones para devolver el resultado de una operación. Una vez que el programa lector se encuentra con el return, devuelve el resultado e inmediatamente deja de leer lo que sigue.
+
+1.d. Declaraciones: Las declaraciones tipo "if", "else" son bien de tipo lógica para pedirle al programa lector que haga o no determinadas cosas en función de lo que nosotros le pedimos. O sea, es cómo que si fueran compuertas que se abren en función de cual es la palabra que decimos. Si elegimos la pastilla roja decidimos despertar, si la azul... 
+
+1.e. Valores booleanos: Los valores booleanos refieren básicamente a que se ofrecen dos opciones posibles opuestas entre sí. Verdadero (true) o FALSO (false), SI o NO, prendido o apagado.
