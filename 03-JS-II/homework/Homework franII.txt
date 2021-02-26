@@ -1,0 +1,18 @@
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+For: for es algo programático que nos ayuda a no repetirnos y generar automáticamente la información que le pidamos. Lo que hace es generar un bucle y repetir una y otra vez lo que nosotros le pidamos hasta un punto de frenado que nosotros le indicamos.
+Uno le indica desde que valor comienza, hasta que punto se repite y de que manera se incrementa la variable.
+El ciclo se ejecutará una y otra vez mienstras la evaluación de la expresión condicional sea true, al superar el valor indicado, se tornará en false y dejará de funcionar.
+
+for (declaro la variable de comienzo; le digo hasta cuándo quiero que se repita el bucle; le digo cómo se irá incrementando la variable){
+	acá pongo el código de lo que hacer con los valores que surjen del bucle.
+}
+
+
+&&: o sea, "y", implica que las dos expresiones deben cumplirse para que sea true.
+||: o sea "o", implica que al menos una de las dos expresiones debe cumplirse para que sea true.
+!: "Not", este operador devolverá el valor booleano opuesto al que resulta de la expresión.
