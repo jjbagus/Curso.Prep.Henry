@@ -1,0 +1,17 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+  * Arrays
+
+  Los Arrays, (arreglos/matrices) vienen a ser un colección de datos/elementos que están ordenados y gracias a ello puedo acceder y operar con ellos.
+ Son como si fuera una cajonera numerada de uno en uno, empezando por el cero, hasta donde se complete la matriz (que puede ser redefinida constantemente). En cada "cajón" puedo colocar cualquier tipo de elemento (números, strings, funciones, otros arreglos, booleanos, etc).
+
+ Se declara como una variable, pero su contenido va entre corchetes. Luego puedo "llamar" al elemento que está guardado dentro simplemente poniendo el nombre del arreglo y, entre corchetes, la posición en la cual está ubicado dentro de la matriz, y operar con eso como si fuera un dato cualquiera.
+
+ Los arrays son dinámicos y muy maleables. Se pueden agregar, quitar y modificar los datos contenidos.
+
+ array.length te dice cuántos elementos tiene array
+ array.pop elimina el último elemento del arreglo  y devuelve el elemento "popped"
+ array.push(nombredelelemento) agrega un elemento al final de la matriz
+ array.shift funciona como array.pop, nada más que trabaja con el primer elemento del arreglo
+ array.unshift(nombredelelemento) agrega un elemento al comienzo de la matriz
+
