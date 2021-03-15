@@ -1,0 +1,31 @@
+# Homework: Javascript IV
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+1) Los objetos, al igual que los arrays, son otro tipo de colector de datos. Mientras que un array permite guardar cualquier tipo de elemento ordenado consecutivamente de 0 a infinito, un objeto permite además asociar infinitas propiedades a cada elemento guardado. Los objetos son como una colección de propiedades. Continenen mucha información sobre una sola cosa. Y al igual que con los arreglos, podemos operar con esos datos.
+Se instancian con los corchetes {}.
+
+2) Las propiedades de los objetos son aquello que tienen guardado dentro de sí, y que de alguna manera lo definen. Vienen a ser un asociación entre un nombre y un valor. O sea, son key-value. Key, clave, "el nombre" y value, el valor. Las propiedades de un objeto, al igual que en las matrices, pueden ser accedidas, se les puede asignar y reasignar nuevos valores, como tb eliminarlos.
+
+3) Los métdodos son el nombre que reciben las funciones cuando están metidas dentro de un objeto. Pueden ser llamadas y pueden tener argumentos como cualquier otra función.
+
+4) Para poder recorrer un objeto, los bucles while o for que veníamos usando en arrays, ahora no nos sirven porque se mueven con índices numéricos que los objetos no tienen. Por eso para poder iterar por todos los elementos de un objeto necesitamos otro, el for in.
+
+Primero se coloca la palabra reservada for, luego entre paréntesis, creamos (var, const, let) Nombre de propiedad, usamos la palabra reservada in y luego el value.
+
+for (var propiedades in valor) {
+	//código
+} 
+
+5) La dot notation y la bracket notation son dos formas de acceder a las propiedades de un objeto.
+En la primera se pone el nombre del objeto seguido de un punto y el nombre de la propiedad. objeto.propiedad
+En la segunda va el nombre del objeto y entre corchetes y comillas el nombre de la propiedad. objeto['propiedad'] 

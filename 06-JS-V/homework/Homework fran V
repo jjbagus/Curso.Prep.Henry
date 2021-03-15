@@ -1,0 +1,20 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+* _Constructors_ (de Clases)
+
+1. Los prototypes, vienen a ser como plantillas generadas para la creación de objetos. En general uno crea una plantilla cuando quiere realizar la misma operación varias veces, sea confeccionear una prenda, o realizar un dibujo. De la misma manera cuando programamos estas plantillas o prototipos nos sirven para compartir funciones, para crear objetos que comparten las mismas propiedades, etc, y de esta manera ahorramos código, tiempo, evitamos errores y nos ayuda a mantener un orden general.
+
+2 Los constructores, son las herramienta que tenemos para la creación de estos prototipos. O sea, son el código que escribimos donde definimos cómo queremos que sea la plantilla, que propiedades puede tener, que métodos anidados y demás. Hay varios constructores basados en distintas formas de utilizar las herramientas disponibles por el lenguaje.
+
+Están el a)function constructor, b)el object create y c)el constructor de clases.
+
+a) el function constructor trabaja creando una función cuyo nombre es el del prototipo en sí y luego le agrega las propiedadas. Luego a través del keyword new se crean los objetos utilizando la plantilla creada. new crea, argumenta, bindea y devuelve.
+
+b) Object create recibe un objeto como parámetro y crea un nuevo objeto cuyo prototipo es el primero que le pasamos. Se basa en Object, que es objeto "alpha" de Javascript. Todos los objetos tienen a object como prototipo.
+
+c)  El constructor de clases, que utiliza la palabra class, el metodo constuctor para la creación de objetos y el método super para llamar a ese constructor.
